@@ -1,0 +1,164 @@
+
+* {
+    box-sizing: border-box;
+    ;
+}
+
+body, html {
+    min-height: 100vh;
+    margin: 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+.grid-half {
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    gap: 20px;
+    align-items: center;
+}
+
+.row1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 25px;
+}
+
+.row2 {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 25px;
+}
+
+audio {
+    width: 100%;
+    outline: none;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+    background-color: #fff;
+    padding: 15px;
+}
+
+.card-content {
+    padding: 15px;
+}
+
+model-viewer {
+    width: 100%;
+    height: 30vw;
+    background-color: transparent;
+}
+
+body {
+    font-family: "IBM Plex Mono", monospace;
+    margin: 25px;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    padding: 20px, 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.primary-nav {
+    list-style-type: none;
+    display: flex;
+    gap: 25px;
+}
+
+.primary-nav a {
+    color: #3B3B3B;
+    text-decoration: none;
+}
+
+.button {
+    font-size: 20px;
+    font-weight: 400;
+    display: inline-block;
+    padding: 10px 40px;
+    border-radius: 22px;
+    color: #000;
+    background-color: #ffb7b2;
+    transition: background-color 0.15s, border 0.15s, color 0.15s;
+}
+
+.button:hover {
+    background-color: transparent;
+    border: 5px solid #ffb7b2;
+    stroke-width: 2px;
+    color: #fff;
+}
+
+a {
+    color: #3B3B3B;
+    text-decoration: none;
+}
+
+a.logo {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.logo-small {
+    width: 110px;
+    height: 79px;
+    font-size: 26px;
+    font-weight: 600;
+    text-align: right;
+}
+
+.logo-large {
+    font-size: 83px;
+    font-weight: 700;
+    font-family: "IBM Plex Sans", monospace;
+}
+
+h1 {
+    font-size: 32px;
+    font-weight: 600;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.base_large {
+    font-size: 19px;
+    font-weight: 400;
+}
+
+.base {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.wrapper {
+    padding: 80px;
+}
+
+.item {
+    background: #a7acc5;
+}
+
+.people {
+    background: #c1e1c1;
+}
+
+.place {
+    background: #ffd99d;
+}
+
+.sound {
+    background: #ffb7b2;
+}

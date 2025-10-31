@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Museum of ME</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,400;0,600;0,700;1,400&family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&display=swap"
+        rel="stylesheet">
+    <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/4.0.0/model-viewer.min.js"></script>
+</head>
+
+<body>
+    <header>
+        <a class="logo" href="index.html"><span class="logo-small"> Museum of </span>
+            <span class="logo-large">ME</span>
+        </a>
+        <nav>
+            <ul class="primary-nav">
+                <li class="base_large"> <a href="current_stats.html"> current stats </a> </li>
+                <li class="base_large"> <a href="archive.html"> archive </a> </li>
+                <li class="base_large"> <a href="logs.html"> log </a> </li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="item">
+        <div class="wrapper">
+            <h1> Commonly Used Items </h1>
+            <div class="grid-half">
+                <div>
+                    <model-viewer alt="Sketch Book" src="assets/slippers.glb" camera-controls
+                        auto-rotate></model-viewer>
+                </div>
+                <div>
+                    <h2> Sketch Book </h2>
+                    <p class="base_large">This is a placeholder paragraph for the people I see.</p>
+                    <a href="#" class="button">Button</a>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+
+    <section class="people">
+        <div class="wrapper">
+            <h1>People I See</h1>
+            <div class="row1">
+                <div class="profile"><img src="images/Sylvia.png">
+                    <p class="base">Sylvia</p>
+                </div>
+                <div class="profile"><img src="images/Victor.png">
+                    <p class="base">Victor</p>
+                </div>
+                <div class="profile"><img src="images/Zoe.png">
+                    <p class="base">Zoe</p>
+                </div>
+                <div class="profile"><img src="images/Jarrod.png">
+                    <p class="base">Jarrod</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="place">
+        <div class="wrapper">
+            <h1>Places I Go</h1>
+        </div>
+        <iframe src="https://www.google.com/maps/d/embed?mid=1VkRSj5T5QEnlpeKPhiAS8Ao19_fRPv8&ehbc=2E312F" width=100%
+            height="480"></iframe>
+
+    </section>
+
+    <section class="sound">
+        <div class="wrapper">
+            <h1>Sounds I Hear</h1>
+            <div class="row2">
+                <div class="card">
+                    <div class="card-content">
+                        <img src="images/Beatles.png">
+                        <p class="base">Twist and Shout</p>
+                    </div>
+                    <audio controls>
+                        <source src="assets/cat_meow.mp3" type="audio/mp3">
+                    </audio>
+                </div>
+                <div class="card">
+                    <div class="card-content">
+                        <img src="images/Elvis.png">
+                        <p class="base">Wonder of You</p>
+                    </div>
+                    <audio controls>
+                        <source src="assets/cat_meow.mp3" type="audio/mp3">
+                    </audio>
+                </div>
+                <div class="card">
+                    <div class="card-content">
+                        <img src="images/Elton.png">
+                        <p class="base">Rocket Man</p>
+                    </div>
+                    <audio controls>
+                        <source src="assets/cat_meow.mp3" type="audio/mp3">
+                    </audio>
+                </div>
+                <div class="card">
+                    <div class="card-content">
+                        <img src="images/David.png">
+                        <p class="base">Starman</p>
+                    </div>
+                    <audio controls>
+                        <source src="assets/cat_meow.mp3" type="audio/mp3">
+                    </audio>
+                </div>
+                <div class="card">
+                    <div class="card-content">
+                        <img src="images/Dragonforce.png">
+                        <p class="base">Through the Fire and Flames</p>
+                    </div>
+                    <audio controls>
+                        <source src="assets/cat_meow.mp3" type="audio/mp3">
+                    </audio>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</body>
+
+</html>
